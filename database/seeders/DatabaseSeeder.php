@@ -36,9 +36,9 @@ class DatabaseSeeder extends Seeder
 
         // Seed default currency (USD)
         \App\Models\Currency::updateOrCreate([
-            'code' => 'USD',
+            'code' => 'DIA',
         ], [
-            'prefix' => '$',
+            'prefix' => '◆',
             'suffix' => '',
             'format' => '1.000,00',
         ]);
